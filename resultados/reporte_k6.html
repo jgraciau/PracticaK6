@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reporte de Prueba K6</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
+    h1 { color: #2c3e50; }
+    table { border-collapse: collapse; width: 80%; margin: 2em 0; }
+    th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
+    th { background: #2c3e50; color: #fff; }
+    tr:nth-child(even) { background: #f2f2f2; }
+    .ok { color: green; font-weight: bold; }
+    .fail { color: red; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Reporte de Prueba K6</h1>
+  <h2>Resumen</h2>
+  <ul>
+    <li><b>Iteraciones completadas:</b> 60</li>
+    <li><b>Duración total (estimada):</b> 1.80 s</li>
+    <li><b>Usuarios virtuales máximos:</b> 10</li>
+    <li><b>URL probada:</b> https://automationexercise.com/</li>
+  </ul>
+  <h2>Resultados HTTP</h2>
+  <table>
+    <tr><th>Métrica</th><th>Valor</th></tr>
+    <tr><td>Duración promedio de solicitud</td><td>754.70 ms</td></tr>
+    <tr><td>Duración mínima de solicitud</td><td>197.7561 ms</td></tr>
+    <tr><td>Duración máxima de solicitud</td><td>1313.3605 ms</td></tr>
+    <tr><td>Estado 200</td><td class="ok">✔ (60 correctos)</td></tr>
+    <tr><td>Errores</td><td class="ok">0</td></tr>
+  </table>
+  <p>Este reporte es un resumen visual basado en la última ejecución de tu script K6.</p>
+</body>
+</html>
